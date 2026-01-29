@@ -6,5 +6,5 @@
 	url = https://github.com/IoTeC-ecosystems/gps.git
 	branch = module
 [submodule "can"]
-	path = can
+	path = can_api
 	url = https://github.com/IoTeC-ecosystems/can.git
