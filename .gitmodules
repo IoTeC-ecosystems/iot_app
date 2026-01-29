@@ -1,3 +1,7 @@
 [submodule "RIOT"]
 	path = RIOT
 	url = https://github.com/RIOT-OS/RIOT.git
+[submodule "gps"]
+	path = gps
+	url = https://github.com/IoTeC-ecosystems/gps.git
+	branch = module
