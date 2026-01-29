@@ -3,6 +3,7 @@ BOARD ?= native
 RIOTBASE ?= $(CURDIR)/RIOT
 
 USEMODULE += gps
+USEMODULE += _can
 
 EXTERNAL_MODULE_DIRS += $(CURDIR)
 
