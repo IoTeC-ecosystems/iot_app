@@ -1,0 +1,3 @@
+/* RIOT OS Module Configuration */
+USEMODULE_INCLUDES_obd2_app := $(LAST_MAKEFILEDIR)/include
+USEMODULE_INCLUDES += $(USEMODULE_INCLUDES_obd2_app)
