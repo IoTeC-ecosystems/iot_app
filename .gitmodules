@@ -5,6 +5,3 @@
 	path = gps
 	url = https://github.com/IoTeC-ecosystems/gps.git
 	branch = module
-[submodule "_can"]
-	path = _can
-	url = https://github.com/IoTeC-ecosystems/can

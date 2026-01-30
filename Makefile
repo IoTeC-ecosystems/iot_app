@@ -2,12 +2,13 @@ APPLICATION = iot_app
 BOARD ?= native
 RIOTBASE ?= $(CURDIR)/RIOT
 
-USEMODULE += gps
-USEMODULE += _can
+USEMODULE += can_app
 
 EXTERNAL_MODULE_DIRS += $(CURDIR)
 
 DEVELHELP ?= 1
 QUIET ?= 1
+
+CFLAGS += -Wno-error=unused-variable
 
 include $(RIOTBASE)/Makefile.include
