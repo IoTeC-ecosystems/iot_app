@@ -2,7 +2,7 @@ APPLICATION = iot_app
 BOARD ?= native
 RIOTBASE ?= $(CURDIR)/RIOT
 
-USEMODULE += can_app
+USEMODULE += can_api
 
 EXTERNAL_MODULE_DIRS += $(CURDIR)
 
