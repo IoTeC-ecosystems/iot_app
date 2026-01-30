@@ -8,3 +8,6 @@
 [submodule "can_api"]
 	path = can_api
 	url = https://github.com/IoTeC-ecosystems/can.git
+[submodule "sim_api"]
+	path = sim_api
+	url = https://github.com/IoTeC-ecosystems/sim_api.git
