@@ -4,6 +4,7 @@ RIOTBASE ?= $(CURDIR)/RIOT
 
 USEMODULE += can_api
 USEMODULE += gps
+USEMODULE += sim_api
 
 EXTERNAL_MODULE_DIRS += $(CURDIR)
 
